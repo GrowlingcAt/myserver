@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.json.schema",
+  "name": "myserver",
+  "version": "0.1.0",
+  "dependencies": [
+    "asio",
+    "spdlog",
+    "protobuf",
+    "prometheus-cpp",
+    {
+      "name": "gtest",
+      "host": true
+    }
+  ]
+}
